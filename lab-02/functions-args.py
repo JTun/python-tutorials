@@ -2,6 +2,9 @@
 def myfunction(arg1, arg2,arg3):
     print "My Very first python function with Arguments"
     print "{},{},{}".format(arg1, arg2, arg3)
+    sum = arg1 + arg2 + arg3
+
+    #return sum
 
     if arg3 == "chicago":
         second_func(arg1,arg2)
@@ -21,4 +24,6 @@ def third_func(arg1):
 
 
 if __name__ == "__main__":
-    myfunction("hello","world","chicago")
+   # myfunction(1,2,3)
+    myreturn = myfunction(1,2,3)      
+    print my_return
