@@ -1,5 +1,5 @@
 import boto3
-
+# LISTS VOLUMES AND CREATES SNAPSHOTS
 def list_volumes():
     ec2_resource = boto3.resource('ec2')
 
